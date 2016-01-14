@@ -1,2 +1,6 @@
 __MACOSX/
 Positiva-Landing-Formulario/
+.sass-cache/
+sass/
+node_modules/
+*.map

@@ -1,0 +1,26 @@
+{
+  "name": "valform",
+  "version": "1.0.0",
+  "description": "None",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://Jenny-Ha@github.com/Jenny-Ha/Formulario-con-validaci-n.git"
+  },
+  "keywords": [
+    "form",
+    "validacion"
+  ],
+  "author": "Jenny Ha",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Jenny-Ha/Formulario-con-validaci-n/issues"
+  },
+  "homepage": "https://github.com/Jenny-Ha/Formulario-con-validaci-n#readme",
+  "dependencies": {
+    "bower": "^1.7.2"
+  }
+}

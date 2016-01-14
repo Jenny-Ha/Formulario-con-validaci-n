@@ -7,17 +7,86 @@
     <link rel="shortcut icon" href="img/favicon.ico">
     <link rel="stylesheet" href="css/bootstrap.min.css"/>
     <link rel="stylesheet" href="plugins/swal/sweetalert.css">
-    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/main.css">
   </head>
   <body>  
-   <!-- Inicio de formulario-->
-  
-   <!-- Scripts -->
+    <!-- Inicio de formulario-->
+    <div id="main">
+      <div class="container">
+        <h2>Comprar</h2>
+        <h1>Tu SOAT es fácil</h1>
+        <p>Ingresa tus datos y te llamaremos para coordinar la entrega de tu SOAT </p>
+        <form id="formLanding" role="form" for="index.html" onsubmit="enviarFormulario">
+          <div class="row">
+            <div class="col-sm-6">
+              <label for="nombre" class="sr-only">Nombres</label>
+              <input type="text" name="nombre" id="nombre" class="form-control" placeholder="Nombres">
+            </div>
+            <div class="col-sm-6">
+            <label for="apellidos" class="sr-only"> Apellidos </label>
+            <input type="text" name="apellidos" id="apellidos" class="form-control" placeholder="Apellidos">
+            </div>
+          </div> <!--fin row 1-->
+          <div class="row">
+            <div class="col-sm-6">
+              <label for="telefono" class="sr-only">Teléfono</label>
+          <input type="tel" class="form-control" name="telefono" placeholder="Teléfono">  
+            </div>
+            <div class="col-sm-6">
+               <label for="email" class="sr-only">Correo Electrónico</label>
+          <input type="email" class="form-control" name="email" placeholder="Correo Electrónico">
+            </div>
+          </div> <!-- fin row 2-->
+          <div class="row">
+            <div class="col-sm-6">
+              <label for="ciudad" class="sr-only">Ciudad</label>
+          <select name="ciudad" class="form-control" id="ciudad">
+            <option value="">Ciudad *</option>
+            <option value="Ciudad1">Ciudad 1</option>
+            <option value="Ciudad2">Ciudad 2</option>
+            <option value="Ciudad3">Ciudad 3</option>
+            <option value="Ciudad4">Ciudad 4</option>
+            <option value="Ciudad5">Ciudad 5</option>
+            <option value="Ciudad6">Ciudad 6</option>
+          </select>  
+            </div>
+          </div> <!-- fin row 3-->
+          <div class="row">
+            <div class="col-sm-6">
+              <label for="placa" class="sr-only">Placa</label>
+              <input type="text" class="form-control" name="placa" placeholder="Placa">  
+            </div>
+            <div class="col-sm-6">
+              <label for="vehiculo" class="sr-only">Uso de Vehículo</label>
+          <select name="vehiculo" class="form-control" id="usoVehiculo">
+            <option value="">Uso de Vehículo *</option>
+            <option value="Uso1">Uso 1</option>
+            <option value="Uso2">Uso 2</option>
+            <option value="Uso3">Uso 3</option>
+            <option value="Uso4">Uso 4</option>
+          </select>  
+            </div>
+          </div>
+          
+          <span class="help-block">Al hacer click en "continuar", acepto los términos y condiciones</span>
+          
+          <input type="submit" class="btn-validar" value="CONTINUAR">
+          <div class="delivery clearfix">
+            <img src="img/Icono_Delivery.png" alt="Imagen Delivery">
+            <span>Delivery <br> Gratis</span>
+          </div>     
+          <img src="img/Logo_Positiva.png" class="pull-right" alt="Logo">
+        </form>
+        
+      </div> <!--fin container-->
+    </div> <!--fin Main-->
+    <!-- Scripts -->
     <script type="text/javascript" src="fonts/MyFontsWebfontsKit.js"></script>  
     <script src="js/jquery.min.js"></script>
     <script src="js/bootstrap.min.js"></script>  
     <script src="js/jquery.validate.min.js"></script>
     <script src="plugins/swal/sweetalert.min.js"></script>
+    <script src="http://www.parsecdn.com/js/parse-1.6.14.min.js"></script>
     <script src="js/main.js"></script>
   </body>
 </html>

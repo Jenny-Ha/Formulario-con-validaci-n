@@ -1,0 +1,25 @@
+{
+  "name": "valform",
+  "description": "None",
+  "main": "index.js",
+  "authors": [
+    "Jenny Ha"
+  ],
+  "license": "ISC",
+  "keywords": [
+    "form",
+    "validacion"
+  ],
+  "homepage": "https://github.com/Jenny-Ha/Formulario-con-validaci-n",
+  "moduleType": [
+    "globals"
+  ],
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}

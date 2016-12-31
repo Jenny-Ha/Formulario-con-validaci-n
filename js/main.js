@@ -18,7 +18,8 @@ function initPage() {
   //plugin Form Validate
   $('#formLanding').validate({
     submitHandler function(form) {
-    enviarFormulario();
+      enviarFormulario();
+      return false;
   },
     rules: {
       nombre: "required",
